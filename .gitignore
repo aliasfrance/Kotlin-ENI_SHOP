@@ -1,0 +1,19 @@
+# Gradle
+.gradle/
+build/
+
+# Local
+local.properties
+
+# IntelliJ / Android Studio
+*.iml
+.idea/
+
+# Logs
+*.log
+
+# App build
+app/build/
+
+# macOS
+.DS_Store
