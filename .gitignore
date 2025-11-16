@@ -1,19 +1,40 @@
-# Gradle
+# === Android / Gradle ===
 .gradle/
 build/
-
-# Local
+**/build/
 local.properties
-
-# IntelliJ / Android Studio
 *.iml
 .idea/
+.cxx/
+.externalNativeBuild/
 
-# Logs
+# === Logs ===
 *.log
 
-# App build
-app/build/
-
-# macOS
+# === Mac OS ===
 .DS_Store
+
+# === Captures / outputs ===
+captures/
+*.apk
+*.ap_
+*.aab
+
+# === Kotlin / Java ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === Android Studio ===
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+*.hprof
+
+# === Misc ===
+*.orig
+*.tmp
