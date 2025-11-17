@@ -1,40 +1,15 @@
-# === Android / Gradle ===
-.gradle/
-build/
-**/build/
-local.properties
 *.iml
-.idea/
-.cxx/
-.externalNativeBuild/
-
-# === Logs ===
-*.log
-
-# === Mac OS ===
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
 .DS_Store
-
-# === Captures / outputs ===
-captures/
-*.apk
-*.ap_
-*.aab
-
-# === Kotlin / Java ===
-*.class
-*.jar
-*.war
-*.ear
-
-# === Android Studio ===
-.idea/caches/
-.idea/libraries/
-.idea/modules.xml
-.idea/workspace.xml
-.idea/navEditor.xml
-.idea/assetWizardSettings.xml
-*.hprof
-
-# === Misc ===
-*.orig
-*.tmp
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
